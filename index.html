@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub-gjennomgang</title>
+    <style>
+        body{
+            overflow-x: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        section{
+            padding: 2%;
+            padding-top: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+        
+        h1{
+            margin: 5%;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 6rem;
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        div{
+            background-color: rgba(122, 225, 246, 0.281);
+            border-radius: 2em;
+            padding: 2%;
+            padding-left: 5%;
+            margin: 2%;
+            
+            
+        }
+        li{
+            margin-bottom: 10px;
+        }
+        a, a:active{
+            color: rgb(0, 54, 218);
+            text-decoration: none;
+        }
+
+        .box{
+            display: flex;
+            flex-direction: row;
+        }
+
+       
+        @media screen and (max-width: 550px) {
+            section{
+                grid-template-columns: 1fr;
+            }
+        }
+        @media screen and (min-width:900px) {
+            section{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>GitHub</h1>
+    <section>
+        <div>
+            <h2>Del 1</h2>
+            <ul>
+                <li>
+                    Hvorfor bruker vi GitHub?
+                    <ul>
+                        <li>Portifolio</li>
+                        <li>Tilgjengelighet</li>
+                        <li>Samarbeid</li>
+                        <li>Dele kode</li>
+                    </ul>     
+                </li>
+                <li>
+                    <a href="https://github.com/" 
+                    target="_blank">Lag en bruker på GitHub</a>
+                    <ul>
+                        <li>Bruk din <b>private mail</b></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://desktop.github.com/download/" 
+                    target="_blank">Last ned GitHub-desktop</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Del 2</h2>
+            <ul>
+                <li>Lage et repository</li>
+                <li>Mappestruktur</li>
+                <li>Igjennom GitHub-desktop</li>
+                <li>Nytt vs ferdig laget prosjekt</li>
+                <li>Publish, push, pull</li> 
+            </ul>
+        </div>
+        <div>
+            <h2>Del 3</h2>
+            <ul>
+                <li>Hva er en IO-link?</li>
+                <li>Forskjellen på repo-link og IO-link</li>
+                <li>Opprette IO-link</li>
+                <li>Kopiere IO-og repo-link</li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
